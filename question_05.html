@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of odd number</title>
+</head>
+
+<body>
+   
+    <input type="number" id="n0" placeholder="Enter a number">
+
+    <button onclick="sum()">check</button>
+
+    <script>
+        function sum() {
+            var input =document.getElementById("n0").value;
+           
+            var sum = 0;
+            for (var i = 0; i <= input.length; i++) {
+                var num = parseInt(input[i]); 
+               num % 2 != 0;
+                if (input[i] > 5) {
+                    sum = sum + num;
+
+                }else{
+                    console.log("enter digits greater than 5")
+                }
+
+            }
+            console.log(sum);
+        }
+    </script>
+</body>
+
+</html>

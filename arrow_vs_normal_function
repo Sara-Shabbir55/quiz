@@ -1,0 +1,7 @@
+ -> function                      vs                             normal function
+
+
+1. don't have their own arguments                                list of parameters can pass
+2. skip return value.                                            return any value
+3. syntax is allow to not used                                   used function keyword 
+function keyword'.
